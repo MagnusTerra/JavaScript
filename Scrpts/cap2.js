@@ -11,7 +11,18 @@ frase= `El nombre de mi pc es <b>${pc["name"]}</b> <br>
         La Ram es de <b> ${pc["ram"]}</b> <br>
         El espacio es de <b>${pc["espacio"]}</b> <br>
 ` 
-
-
-
 document.write(frase)
+document.write("<br>")
+let numero=0;
+document.write("Usando if <br>")
+if (numero<10){
+    numero+=1;
+    document.write(numero)
+}
+document.write("<br>")
+document.write("Usando While<br>")
+while (numero<10){
+
+    document.write(numero +"<br>");
+    numero+=1;
+}
