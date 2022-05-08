@@ -6,10 +6,10 @@ let pc ={
     espacio:'750gb'
 };
 let nombre=pc["name"];
-frase= `El nombre de mi pc es ${pc["name"]} <br>
-        El procesador es ${pc["procesador"]} <br>
+frase= `El nombre de mi pc es <b>${pc["name"]}</b> <br>
+        El procesador es<b> ${pc["procesador"]}</b> <br>
         La Ram es de <b> ${pc["ram"]}</b> <br>
-        El espacio es de ${pc["espacio"]} <br>
+        El espacio es de <b>${pc["espacio"]}</b> <br>
 ` 
 
 
