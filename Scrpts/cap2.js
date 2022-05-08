@@ -1,4 +1,4 @@
-
+let animales = ["Perro","Lobo","Gato","Tiburon"];
 let pc ={
     name:'Red_Douten',
     procesador:'Intel i5',
@@ -30,4 +30,14 @@ while (numero<=10){
 document.write("Usando For <br>")
 for(let i=0;i<=10;i++){
     document.write(i+"<br>");
+}
+
+document.write("Usando For in <br>")
+
+for (animal in animales){
+    document.write(animales[animal]+"<br>");
+}
+document.write("Usando For of <br>")
+for (animal of animales){
+    document.write(animal+"<br>");
 }
