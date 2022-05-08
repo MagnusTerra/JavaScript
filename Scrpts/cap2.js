@@ -21,8 +21,13 @@ if (numero<10){
 }
 document.write("<br>")
 document.write("Usando While<br>")
-while (numero<10){
+while (numero<=10){
 
     document.write(numero +"<br>");
     numero+=1;
+}
+
+document.write("Usando For <br>")
+for(let i=0;i<=10;i++){
+    document.write(i+"<br>");
 }
