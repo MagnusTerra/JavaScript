@@ -10,6 +10,6 @@ class animal{
     }
 }
 let perro=new animal("Perro",5,"Rojo");
-
-document.getElementByI("Parra").perro.informacion()
+document.getElementById("Parra").innerHTML="Hola"
+document.write(perro.informacion())
 
