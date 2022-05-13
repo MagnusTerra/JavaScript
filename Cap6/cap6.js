@@ -1,0 +1,1 @@
+document.write("<h1>Capitulo6</h1>");
